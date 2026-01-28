@@ -1064,6 +1064,10 @@ main::before {
 .phone {
   grid-area: phone;
   display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-weight: 800;
+  font-size: larger;
   align-items: center;
   justify-content: center;
 }
@@ -1094,11 +1098,11 @@ main::before {
   border-radius: 6px;
   background: linear-gradient(
     45deg,
-    #b8860b,
-    #ffd700,
-    #ffec8b,
-    #ffd700,
-    #b8860b
+    black,
+    grey,
+    black,
+    grey,
+    black
   );
 }
 
