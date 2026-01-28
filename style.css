@@ -292,7 +292,7 @@ nav ul li a:hover::after {
 
 main {
   position: relative;
-  min-height: 80vh; /* ⭐ THIS IS THE MAIN FIX */
+  min-height: 100vh; /* ⭐ THIS IS THE MAIN FIX */
   background-image: url("./Assets/ChatGPT Image Jan 27, 2026, 03_05_00 PM_11zon.webp");
   background-size: cover;
   background-position: center;
